@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LORD FİTNESS CLUB</title>
+<style>
+    *{margin: 0;
+      padding:0;
+      box-sizing: border-box;  
+     }
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*  header başlangıç */ 
+
+header {
+    height: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav .logo a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 56px;
+    font-size: 20px;
+}
+
+nav ul a:hover {
+    color: black;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+}
+
+nav .menu .menu-butonu {
+    color: aqua;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 12px 24px;
+    border-radius: 56px;
+    font-size: 20px;
+}
+
+nav .menu .menu-butonu:hover {
+    color: black;
+}
+
+/*  header bitiş */ 
+
+/*  section başlangıç */ 
+
+.content {
+    color: white;
+    height: calc(100vh - 100px);
+    padding-top: 50px;
+}
+
+.content h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content .linkler {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 16px;
+}
+
+.content .linkler a {
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 60px;
+}
+
+.content .linkler a:hover {
+    background-color: #0ba2c0;
+    color: white;
+}
+
+/*  section bitiş */ 
+
+/*! responsive başlangıç */
+@media(max-width:576px) {
+    .container {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .menu ul {
+        column-gap: 20px;
+    }
+
+    .menu .menu-button {
+        display: none;
+    }
+
+    .content {
+        padding-top: 50px;
+    }
+
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content .linkler {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .content .linkler a {
+        padding: 14px;
+        width: 90%;
+    }
+}
+
+/*! responsive bitiş */
+
+</style>
+   
+</head>
+
+<body background="dinlenmeodasi.jpg">
+    
+    <!-- header başlangıç -->
+    <header class="container"> 
+        <nav>
+            <div class="logo">
+                <a href="#">LORD FC</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="ekip2.html" target="_blank">Ekibimiz</a></li>
+                    <li><a href="mailto:sincesu2017@gmail.com">İletişim</a></li>
+                </ul>
+                <a href="yasuolu-forum.html" target="_blank" class="menu-butonu">Kayıt Ol</a>
+            </div>
+        </nav>
+    </header>
+    <!-- header bitiş  -->
+
+    <!-- section başlangıç -->
+    <section class="container content">
+    <h1>Ataşehir'in En Gözde Spor Salonu</h1>
+    <p>Sen de aramıza katıl ve kendini değiştirmeye başla.</p>
+    <div class="linkler">
+        <a href="forum.html" target="_blank">Forum</a>
+        <a href="https://www.instagram.com/sametincesuu" target="_self">Sosyal Medya</a>
+    </div>
+
+    </section>
+    <!--  section bitiş -->
+
+</body>
+
+</html>

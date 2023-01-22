@@ -180,7 +180,7 @@ nav .menu .menu-butonu:hover {
                     <li><a href="ekibimiz.html" target="_blank">Ekibimiz</a></li>
                     <li><a href="mailto:sincesu2017@gmail.com">İletişim</a></li>
                 </ul>
-                <a href="yasuolu-forum.html" target="_blank" class="menu-butonu">Kayıt Ol</a>
+                <a href="kayıtolma.html" target="_blank" class="menu-butonu">Kayıt Ol</a>
             </div>
         </nav>
     </header>

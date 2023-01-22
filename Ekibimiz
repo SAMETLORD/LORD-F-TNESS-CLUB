@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+    body{
+        background-color: white;
+    }
+    .container {
+        color: black;
+        margin-left: 500px;
+    }
+    .ekip {
+        color: black;
+        margin-left: 350px;
+    }
+    .paragraf {
+        color: black;
+        font-size: 20px;
+    }
+    a{
+        margin-left: 150px;
+    }
+</style>
+
+<body>
+
+<div class="container">
+  <h1 class="ekip">Ekibimiz</h1>
+  <p class="paragraf">Ekip üyelerimizin bilgileri aşağıda yer almaktadır.</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Alan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tunahan</td>
+        <td>Güler</td>
+        <td>Bodybuilding</td>
+      </tr>
+      <tr>
+        <td>Furkan</td>
+        <td>Er</td>
+        <td>Bodybuilding</td>
+      </tr>
+      <tr>
+        <td>Cenk </td>
+        <td>Koçak</td>
+        <td>Powerlifting</td>
+      </tr>
+      <tr>
+        <td>Tuna</td>
+        <td>Tavus</td>
+        <td>Powerlifting</td>
+      </tr>
+      <tr>
+        <td>Doğan Can</td>
+        <td>Polat</td>
+        <td>Bodybuilding</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="a">
+    <a href="#"><img src="tunahan güler.jpg" style=" width:300px; height: 300px" /></a>
+    <a href="#"><img src="furkaner.jpg" style="width:300px; height: 300px"/></a>
+    <a href="#"><img src="cenktuna.jpg" style="width:300px; height: 300px" /></a>
+    <a href="#"><img src="doğancp.jpeg" style="width:300px; height: 300px" /></a>
+
+</div>
+
+</body>
+</html>

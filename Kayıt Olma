@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+      body {
+        background-repeat: no-repeat;
+      }   
+         </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="Couple-room.jpg">
+    <h1>LORD FİTNESS CLUB</h1>
+    <h2>(Formu eksiksiz doldurunuz)</h2>
+    <hr>
+    <h2>Hesap Bilgileriniz</h2>
+    <table><tr>
+        <td style="width: 120px">
+            <label for="username">Kullanıcı Adı:</label>
+        </td>
+        <td style="width: 50px">
+        </td>
+        <td>
+            <input type="text" 
+            id="username" 
+            placeholder="Kullanıcı adını giriniz."
+            />
+        </td>
+    <tr>
+        <td><label for="eposta">E posta:</label></td>
+        <td></td>
+        <td><input type="email" id="eposta" placeholder="E posta giriniz."></td>
+    </tr>
+    <tr>
+        <td><label for="password">Parola:</label></td>
+        <td></td>
+        <td><input type="password" id="password" placeholder="Parola giriniz."></td>
+    </tr>
+    
+</table>
+<h2>Kişisel Bilgileriniz</h2>
+<table>
+    <tr>
+        <td style="width: 120px;">
+        <label for="ad">Adınız:</label></td>
+        <td style="width: 50px"></td>
+        <td>
+            <input type="text" id="ad" 
+            placeholder="Adınızı Giriniz.">
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 120px;">
+        <label for="ad">Soyadınız:</label></td>
+        <td style="width: 50px"></td>
+        <td>
+            <input type="text" id="soyad" 
+            placeholder="Soyadınızı Giriniz.">
+        </td>
+        <tr>
+            <td style="width: 120px;">
+            <label for="ad">Yaşadığınız Şehir:</label></td>
+            <td style="width: 50px"></td>
+            <td>
+                <select  id="şehir">
+                <option >Seçiniz</option>
+                <option >İstanbul</option>
+                <option >Ankara</option>
+                <option >İzmir</option>
+            </td>
+        </tr>
+        <tr><td><label for="cinsiyet" Cinsiyet:></label><td>
+            <td><input type="radio" name="cinsiyet">Erkek
+            <input type="radio" name="cinsiyet">Kadın</td>
+        </tr>
+        
+        <tr>
+            <tr>
+                <td>
+                    <label for="alan"Alan Seçiniz:></label>
+                </td>
+                <td></td>
+                <td><input type="checkbox">Powerlifting
+                    <input type="checkbox">Bodybuilding
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><button type="submit">Kayıt Ol</button></td>
+            </tr>
+    </table>
+</body>
+</html>

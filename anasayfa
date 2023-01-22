@@ -177,7 +177,7 @@ nav .menu .menu-butonu:hover {
             <div class="menu">
                 <ul>
                     <li><a href="#">Anasayfa</a></li>
-                    <li><a href="ekip2.html" target="_blank">Ekibimiz</a></li>
+                    <li><a href="ekibimiz.html" target="_blank">Ekibimiz</a></li>
                     <li><a href="mailto:sincesu2017@gmail.com">İletişim</a></li>
                 </ul>
                 <a href="yasuolu-forum.html" target="_blank" class="menu-butonu">Kayıt Ol</a>

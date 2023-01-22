@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+<div class="container">
+  <h2>Personel Trainer Forum</h2>
+  <p>Bu alanda soru veya aklınıza takılan şeyler hakkında fikir alışverişinde bulunabilirsiniz.</p>
+  
+  <!-- Left-aligned media object -->
+  <div class="media">
+    <div class="media-left">
+      <img src="hikmet.jpeg" class="media-object" style="width:60px">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Hikmet Elgin</h4>
+      <p>Hocam fazla yemek yememe rağmen kilo alamıyorum. Yardımcı olabilir misiniz ?</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Right-aligned media object -->
+  <div class="media">
+    <div class="media-body">
+      <h4 class="media-heading">Doğan Can Polat</h4>
+      <p>Fazla yemenle veya az yemenle alakalı bir durum değil. Vücudunun günlük ihtiyacı olan kaloriden 400-500 kalori fazlasını aldığında sağlıklı bir şekilde kilo alacaksındır.</p>
+    </div>
+    <div class="media-right">
+      <img src="doğancp.jpeg" class="media-object" style="width:80px">
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
